@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 body {
     height:665px;
     background-image: url("https://static.vecteezy.com/system/resources/previews/004/797/947/non_2x/wave-lines-black-background-free-vector.jpg");
@@ -7,12 +6,17 @@ body {
 * {
     color: white;
 }
+.titulo{
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+  height: 50px;
+}
 
 .hero__title {
     color: #fff;
     position: absolute;
-    
-    top: 50%;
+    top: 10%
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -25,7 +29,7 @@ body {
     left: 45vw;
     width: 10px;
     height: 10px;
-    border: solid 1px #E3C81B;
+    border: solid 1px rgb(192, 192, 192);
     -webkit-transform-origin: top left;
             transform-origin: top left;
     -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -34,7 +38,7 @@ body {
             animation: cube 10s ease-in forwards infinite;
   }
   .cube:nth-child(2n) {
-    border-color: #B0A319;
+    border-color: rgb(192, 192, 192);
   }
   .cube:nth-child(2) {
     -webkit-animation-delay: 1s;
