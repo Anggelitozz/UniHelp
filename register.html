@@ -5,28 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
     <a href="index.html">Home</a>
-    <a href="login.html">Login</a>
     
-    <h2>Sign up for <i>UNIHELP!</i></h2>
-    
-    <form>
-        <label for="username">Username:</label>
+    <form class="register">
+        <h2>registro</h2>
+        <input class="controls" type="text" name="username" placeholder="USUARIO">
+        <p class="error">no se admiten caracteres especiales</p>
         <br>
-        <input type="text" id="username" name="username">
+        <input class="controls" type="text" name="nombres" placeholder="NOMBRES">
+        <p class="error">no se admiten caracteres especiales</p>
         <br>
-        <label for="email">Email:</label>
+        <input class="controls" type="text" name="apellidos" placeholder="APELLIDOS">
+        <p class="error">no se admiten caracteres especiales</p>
         <br>
-        <input type="text" id="email" name="email">
+        <input class="controls" type="email" name="email" placeholder="CORREO ELECTRÓNICO">
+        <p class="error">por favor digíte un correo electrónico válido ejemplo: "sujeto123@ejemplo.com"</p>
         <br>
-        <label for="password">Password:</label>
+        <input class="controls" type="password" name="contraseña" placeholder="CONTRASEÑA">
+        <p class="error">la contraseña debe tener un mínimo de 6 caracteres y al menos: una mayúscula,minúscula, símbolo y número</p>
         <br>
-        <input type="password" id="password" name="password">
+        <input class="controls" type="password" name="contraseña" placeholder="CONFIRMAR CONTRASEÑA">
+        <p class="error">la contraseña no es la misma</p>
         <br>
-        <input type="submit" name="submit">
+        <label>
+            <input type="checkbox">
+            acepto los términos y condiciones
+        </label>
+        <br>
+        <button type="submit" class="button">registrarse</button>
+        <p>Por favor llene todos los espacios correctamente</p>
+        <p id="correcto">el fomulario se ha enviado correctamente</p>
+        <br>
+        <p><a href="login.html">¿Ya tienes cuenta?</a></p>
     </form>
+    <div class="hero"> 
+        <div class="hero__title"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+        
 </body>
 </html>
