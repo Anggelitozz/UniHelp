@@ -14,7 +14,6 @@ const validarformulario = (e) => {
 		case "username":
 			if(expresiones.usuario.test(e.target.value)==true){
 				document.getElementById('usuario').classList.remove('controls_incorrecto');
-				console.log('correcto')
 			}else{
 				document.getElementById('usuario').classList.add('controls_incorrecto');
 
