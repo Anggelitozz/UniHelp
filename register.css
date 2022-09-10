@@ -21,7 +21,7 @@
     text-align: center;
     height: 50px;
 }
-.controlsUsuario, .controlsNombres, .controlsApellidos, .controlsCorreo, .controlsContraseña, .controlsContraseña2{
+.controls{
     border: 1px solid whitesmoke;
     background-color: rgba(0, 0, 0, 0.20);
     width: 100%;
@@ -47,17 +47,19 @@
     color: rgba(255, 255, 255, 0.4);
 
 }
-.error{
+.error,.correcto{
     position: relative;
-    font-size: 10px;
+    font-size: 15px;
     display: none;
 }
 .controls_incorrecto{
-    border: 3px solid red;
-    background-color: rgba(0, 0, 0, 0.20);
-    width: 100%;
-    height: 7%;
-    font-size: 120%;
-    margin: 15px 0px;
-    border-radius: 5px;
+    border: 5px solid red;
+}
+.button:hover{
+    color: #ffffff !important;
+    background-color: rgb(1, 56, 30);
+}
+.activarMensaje{
+    color:red;
+    display: block;
 }
