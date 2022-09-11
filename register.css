@@ -6,12 +6,12 @@
 .register{
     
     height: 500px;
-    width: 800px;
+    width: 50%;
     background-color: rgba(255,255,255,0.08);
     border-radius: 10px;
     box-shadow: 7px 13px 37px black;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 25%;
     padding: 20px 30px;
     font-family: Verdana;
 

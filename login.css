@@ -6,12 +6,11 @@
 .login{
     
     height: 400px;
-    width: 800px;
+    width: 40%;
+    margin:auto;
     background-color: rgba(255,255,255,0.08);
     border-radius: 10px;
     box-shadow: 7px 13px 37px black;
-    margin-top: 3%;
-    margin-left: 23%;
     padding-top: 12px;
     padding-bottom: 20px;
     padding-left: 30px;
