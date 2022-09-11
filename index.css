@@ -1,5 +1,106 @@
+*{ padding: 0; margin: 0;}
+.main{
+  background-color: rgb(55, 47, 47);
+  display: flex;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+  top: 0;
+  z-index: 100;
+}
+
+.UniHelp{
+  height: 80px;
+}
+.main__cont{
+    margin: 10px;
+    margin-left: 30px;
+
+}
+.main2__cont2-a{
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 3px;
+    transition: 0.3s;
+}
+.main2__cont2-b {
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 3px;
+    transition: 0.3s;
+}
+.main2__cont2-a:hover, .main2__cont2-b:hover{
+    color: #6EB4BE;
+    transition: 0.3s;
+
+}
+.main2__cont2{
+    position: absolute;
+    bottom: 0;
+    margin: 40px;
+}
+a{
+    text-decoration: none;
+}
+.mainc__cont{
+    text-align: center;
+    color: #fff;
+    padding: 280px;
+}
+.mainc__cont-h1{
+    font-family: 'Noto Serif HK', serif;
+}
+.mainc{
+    width: 100%;
+    position: relative;
+    background-color: #042a3040 ;
+    width: 100%;
+}
+.mainc__cont-p{
+    font-size: 2em;
+    font-family: 'Noto Serif HK', serif;
+}
+.maind__cont{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    padding-top: 92px;
+    padding-bottom: 91px;
+    position: relative;
+}
+.maind__cont-h2{
+    font-size: 2.7em;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-top: 103px;
+}
+
+.maind__cont-p{
+    display: flex;
+    font-size: 1.7em;
+    font-weight: bold;
+    
+}
+.maind__cont-img{
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.maind__cont-p2{
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+}
+.maind{
+  background-color: #293a3c40 ;
+}
+
 body {
-    height:665px;
     background-image: url("https://static.vecteezy.com/system/resources/previews/004/797/947/non_2x/wave-lines-black-background-free-vector.jpg");
 }
 
