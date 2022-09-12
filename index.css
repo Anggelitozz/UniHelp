@@ -20,7 +20,7 @@
 .main2__cont2-a{
     font-size: 1.3em;
     font-weight: bolder;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 10px;
     padding: 3px;
     transition: 0.3s;
@@ -28,7 +28,7 @@
 .main2__cont2-b {
     font-size: 1.3em;
     font-weight: bolder;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 10px;
     padding: 3px;
     transition: 0.3s;
@@ -99,10 +99,68 @@ a{
 .maind{
   background-color: #293a3c40 ;
 }
+.maine{
+    background-color: #291d1e40;
+    
+}
+.maine__flex{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    padding-top: 170px;
+    padding-bottom: 190px;
+    
+}
+.maine__cont-h2{
+    font-size: 2.7em;
+    margin-bottom: 20px;   
+}
+.maine__cont-p{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.maine__galery{
+    display: flex;
+}
+.maine_galery-1{
+    height: 400px;
+    border-radius: 10px;
+}
+.maine_galery-2{
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.maine__cont{
+    width: 50%;
+}
+.maine__cont-button{
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.maine__cont-button:hover{
+    cursor: pointer;
+    background-color: #eee;
+    transition: 0.4s;
+}
+
+#novedades{
+    visibility: hidden;
+    position: absolute;
+}
+
 
 body {
     background-image: url("https://static.vecteezy.com/system/resources/previews/004/797/947/non_2x/wave-lines-black-background-free-vector.jpg");
-}
+    background-size: 100%;
+  }
 
 * {
     color: white;
