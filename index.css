@@ -151,9 +151,46 @@ a{
     transition: 0.4s;
 }
 
-#novedades{
+#tutores{
     visibility: hidden;
     position: absolute;
+}
+.mainf{
+    background-color: #291d1e40;
+    
+}
+.mainf__cont{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    padding-top: 92px;
+    padding-bottom: 91px;
+    position: relative;
+}
+.mainf__cont-h2{
+    font-size: 2.7em;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.mainf__flex{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    padding-top: 170px;
+    padding-bottom: 190px;
+}
+.mainf__cont-p{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.mainf__galery{
+    display: flex;
+}
+.mainf_galery-1{
+    height: 400px;
+    border-radius: 10px;
 }
 
 
@@ -165,23 +202,6 @@ body {
 * {
     color: white;
 }
-.titulo{
-  color: white;
-  margin-top: 5%;
-  text-align: center;
-  height: 50px;
-}
-
-.hero__title {
-    color: #fff;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    font-size: 50px;
-    z-index: 1;
-  }
   .cube {
     position: absolute;
     top: 80vh;
@@ -202,32 +222,32 @@ body {
   .cube:nth-child(2) {
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
-    left: 25vw;
-    top: 40vh;
+    left: 25%;
+    top: 40%;
   }
   .cube:nth-child(3) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
-    left: 75vw;
-    top: 50vh;
+    left: 75%;
+    top: 50%;
   }
   .cube:nth-child(4) {
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
-    left: 90vw;
-    top: 10vh;
+    left: 90%;
+    top: 10%;
   }
   .cube:nth-child(5) {
     -webkit-animation-delay: 4s;
             animation-delay: 4s;
-    left: 10vw;
-    top: 85vh;
+    left: 10%;
+    top: 85%;
   }
   .cube:nth-child(6) {
     -webkit-animation-delay: 5s;
             animation-delay: 5s;
-    left: 50vw;
-    top: 10vh;
+    left: 50%;
+    top: 10%;
   }
   
   @-webkit-keyframes cube {
