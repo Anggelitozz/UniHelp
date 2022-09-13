@@ -1,4 +1,3 @@
-*{ padding: 0; margin: 0;}
 .main{
   background-color: rgb(55, 47, 47);
   display: flex;
@@ -193,19 +192,28 @@ a{
     border-radius: 10px;
 }
 
-
 body {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/004/797/947/non_2x/wave-lines-black-background-free-vector.jpg");
+    background-color: #000;
     background-size: 100%;
   }
+.titulo {
+  position: relative;
+  color: #fff;
+  width: 50%;
+  margin:auto;
+  font-size: 40px;
+  z-index: 1;
+  left:20%;
+  padding-bottom: 8%;
+}
 
 * {
     color: white;
 }
   .cube {
     position: absolute;
-    top: 80vh;
-    left: 45vw;
+    top: 80%;
+    left: 45%;
     width: 10px;
     height: 10px;
     border: solid 1px rgb(192, 192, 192);

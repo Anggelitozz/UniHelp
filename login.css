@@ -1,11 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .login{
-    
-    height: 400px;
     width: 40%;
     margin:auto;
     background-color: rgba(255,255,255,0.08);
@@ -16,7 +10,6 @@
     padding-left: 30px;
     padding-right: 30px;
     font-family: Verdana;
-
 }
 .login h3{
     margin:0;

@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="register.css">
 </head>
 <body>
-    <a href="index.html">Home</a>
-    
     <form class="register" id="formulario">
         <h2>registro</h2>
         <input class="controls" type="text" name="username" id="usuario" placeholder="USUARIO">
@@ -32,12 +30,12 @@
         <p class="error" id="contraseña2Error">la contraseña no es la misma</p>
         <br>
         <label>
-            <input type="checkbox">
+            <input type="checkbox" id="term">
             acepto los términos y condiciones
         </label>
         <br>
         <button type="submit" class="button">registrarse</button>
-        <p class="error">Por favor llene todos los espacios correctamente</p>
+        <p class="error" id="incorrecto">Por favor llene todos los espacios correctamente</p>
         <p class="correcto" id="correcto">el fomulario se ha enviado correctamente</p>
         <br>
         <p><a href="login.html">¿Ya tienes cuenta?</a></p>
