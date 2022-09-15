@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block headers %}
+<title>Autor</title>
+{% endblock %}
+
+{% block content %}
+<div class="container detalle">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">materia</th>
+            <th scope="col">tema</th>
+            <th scope="col">profesor</th>
+            <th scope="col">documento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ object.materia }}</td>
+            <td>{{ object.tema }}</td>
+            <td>{{ object.profesor }}</td>
+            <td>{{ object.documento }}</td>
+          </tr>
+        </tbody>
+      </table>    
+</div>
+
+{% endblock %}
